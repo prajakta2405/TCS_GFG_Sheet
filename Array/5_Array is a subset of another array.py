@@ -1,3 +1,17 @@
+'''
+Given two arrays: a1[0..n-1] of size n and a2[0..m-1] of size m. Task is to check whether a2[] is a subset of a1[] or not. Both the arrays can be sorted or unsorted. There can be duplicate elements.
+ 
+
+Example 1:
+
+Input:
+a1[] = {11, 7, 1, 13, 21, 3, 7, 3}
+a2[] = {11, 3, 7, 1, 7}
+Output:
+Yes
+Explanation:
+a2[] is a subset of a1[]
+'''
 
 #Given two arrays: a1[0..n-1] of size n and a2[0..m-1] of size m. Task is to check whether a2[] is a subset of a1[] or not. Both the arrays can be sorted or unsorted. There can be duplicate elements.
 

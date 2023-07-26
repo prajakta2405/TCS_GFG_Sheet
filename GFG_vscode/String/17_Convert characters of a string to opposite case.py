@@ -13,5 +13,10 @@ Output : HELLO EVERY ONE
 def change_case(s):
     res=[]
     for i in s:
-        res.append(i)
+        if 65 <= ord(i) <=90:
+            res.append(i.lower())
+        else:
+            res.append(i.upper())
+    print( ''.join(res))
+change_case("eeksForgEeks")
         
